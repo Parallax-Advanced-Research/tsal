@@ -31,7 +31,7 @@ To use the TSAL Interpreter, include the package tsal-interpreter within your pr
 
 Problem file is optional.
 
-```
+```python
 from tsal.interpreter import Interpreter
 interpreter = Interpreter(domain_file="examples/blocksworld/domain.tsal", problem_file="examples/blocksworld/problem.tsal")
 ```
