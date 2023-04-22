@@ -149,10 +149,10 @@ This material is based upon work supported by the Defense Advanced Research Proj
 
 ## Contributors
 
-- Dustin Dannenhauer 
-  - @dtdannen (github)
+- [Dustin Dannenhauer](https://github.com/dtdannen)
   - dustin.dannenhauer@parallaxresearch.org
-- Noah Reifsnyder
+- [Noah Reifsnyder](https://github.com/NoahDReifsnyder) 
+  - noah.reifnsyder@parallaxresearch.org
 - AJ Regester
 - Matthew Molineaux
 
