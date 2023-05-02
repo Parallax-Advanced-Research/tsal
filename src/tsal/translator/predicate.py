@@ -45,10 +45,10 @@ class Predicate(object):
         return len(self._args)
 
     def __str__(self):
-        if self._name == '=':
-            return '{0} = {1}'.format(str(self._args[0]), str(self._args[1]))
-        elif self.arity == 0:
+        if self.arity == 0:
             return self._name
+        elif self._name == '=':
+            return '{0} = {1}'.format(str(self._args[0]), str(self._args[1]))
         else:
             return '({0} {1})'.format(self._name, ' '.join(map(str, self._args)))
 
