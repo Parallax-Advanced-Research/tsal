@@ -110,7 +110,7 @@ class Problem(object):
             problem_str += '{0} -> {1}\n'.format(type, ', '.join(sorted(objects)))
         problem_str += '>> init:\n{0}\n'.format(', '.join(sorted(map(str, self._init))))
         problem_str += '>> timed-init:\n{0}\n'.format(', '.join(sorted(map(str, self._timed_init))))
-        problem_str += '>> goal:\n{0}\n'.format(', '.join(sorted(map(str, self._goal))))
+        problem_str += '>> goal:\n{0}\n'.format(self._goal)
         return problem_str
 
     def __repr__(self):

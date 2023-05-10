@@ -1059,6 +1059,7 @@ def p_goal_body_def_lst(p):
         p[0] = [p[1]]
     elif len(p) == 3:
         p[0] = [p[1]] + p[2]
+
 def p_goal_def(p):
     '''goal_def : LPAREN GOAL_KEY goal_body_def RPAREN
                 | LPAREN GOAL_KEY literal RPAREN

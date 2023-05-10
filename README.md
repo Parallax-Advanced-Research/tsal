@@ -4,7 +4,23 @@ This is a python package for parsing Transformation and Simulator Abstraction La
 into python objects. TSAL is similar (and largely inspired) from the class of Planning Definition Domain Languages
 (PDDL). 
 
-This package supports the [novelty generator](put url here) as a submodule.
+This library is required for the [noveltygen](https://github.com/Parallax-Advanced-Research/noveltygen) library.
+
+## Papers
+
+If you use this library, please cite [our paper](https://arxiv.org/abs/2305.04315) that describes the TSAL language:
+
+```text
+@misc{molineaux2023framework,
+      title={A Framework for Characterizing Novel Environment Transformations in General Environments}, 
+      author={Matthew Molineaux and Dustin Dannenhauer and Eric Kildebeck},
+      year={2023},
+      eprint={2305.04315},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI}
+}
+```
+
 
 ***
 
