@@ -66,9 +66,17 @@ class Domain(object):
     def types(self):
         return self._types
 
+    @types.setter
+    def types(self, types):
+        self._types = types
+
     @property
     def litypes(self):
         return self._litypes
+
+    @litypes.setter
+    def litypes(self, litypes):
+        self._litypes = litypes
 
     @property
     def constants(self):
